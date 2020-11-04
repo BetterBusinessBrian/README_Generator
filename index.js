@@ -30,7 +30,7 @@ const promptUser= () => {
 {
     type: 'list',
     message: "Choose a license for your project. Use arrow keys.",
-    choices: ['Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License'],
+    choices: ['Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'none'],
     name: 'license'
 },
 {
@@ -64,12 +64,13 @@ const generateReadMe = answers => {
 ## Description:
 ${answers.description}
   
-##Table of Contents:
+## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions) 
+* [License](#license)
   
 ## Installation
   
@@ -78,15 +79,18 @@ To install the nescessary dependencies, run the following command: ${answers.ins
 ## Usage
 ${answers.use}
   
-##Contributing:
+## Contributing:
 ${answers.contribution}
   
-##Tests:
+## Tests:
 To run tests, run the folllowing command: ${answers.tests}
   
-##Questions
+## Questions
 If you have any questions about the repo, open an issue or reach out to me directly at ${answers.email}. You can find more of my work at https://github.com/${answers.github}
-  `;
+
+## License
+${answers.license}
+`;
 };
 
 promptUser()
