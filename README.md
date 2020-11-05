@@ -1,7 +1,9 @@
-# ReadMe Generator
+# Read Me Generator
+
+![readme](https://user-images.githubusercontent.com/69867441/98268199-3adcd200-1f5a-11eb-86a2-97eabc82366a.gif)
 
 ## Description:
-A node CLI that builds a professional readme.md file from user input.
+A CLI application that builds a professional README.md based on user input.
   
 ## Table of Contents:
 * [Installation](#installation)
@@ -13,13 +15,13 @@ A node CLI that builds a professional readme.md file from user input.
   
 ## Installation
   
-To install the nescessary dependencies, run the following command: undefined
+To install the nescessary dependencies, run the following command: npm i
   
 ## Usage
-Watch the video listed in the README, and if that doesn't work, see the bottom of readme.md.
+Install dependencies before use. If problem see contact at bottom.
   
 ## Contributing:
-Open a pull request and i will review it. 
+Open a pull request and we will review it. 
   
 ## Tests:
 To run tests, run the folllowing command: npm test

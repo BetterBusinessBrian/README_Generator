@@ -74,7 +74,7 @@ ${answers.description}
   
 ## Installation
   
-To install the nescessary dependencies, run the following command: ${answers.instInput}
+To install the nescessary dependencies, run the following command: ${answers.depend}
   
 ## Usage
 ${answers.use}
